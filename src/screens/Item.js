@@ -46,7 +46,7 @@ function Item() {
                                 image.map((e, index) =>
                                     <Image key={index}
                                         resizeMode='stretch'
-                                        source={{ uri: e, width: 362, height: 260 }}
+                                        source={{ uri: e, width: 360, height: 260 }}
                                     />
                                 )
                             }
